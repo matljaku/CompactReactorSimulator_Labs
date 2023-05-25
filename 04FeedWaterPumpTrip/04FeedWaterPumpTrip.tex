@@ -1,0 +1,214 @@
+\input{./CVUTdolphin}
+
+%Information to be included in the title page:
+\title[APROS simulations of BWR transients]{Feed water pump trip}
+\subtitle{First seminar SH2705}
+\author{Quentin Louis Poirier, Jakub Mátl, Atilla Cakir}
+\institute[KTH]{KTH\\
+Royal Institute of Technology, Stockholm}
+\date[24/05/23]{123. 5. 2023}
+\usepackage{comment}
+
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+%\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\DeclareFieldFormat{labelnumberwidth}{[{#1}]} %dela u bibliografie []
+\addbibresource{literature.bib}
+
+\nologo %vypne loga
+%\logo{\includegraphics[scale=0.12]{img/fjfi.eps} \includegraphics[scale=0.12]{img/cvut.eps}} %nastavi loga/zapne
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Feed water flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/FEED WATER FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Auxiliary feed water flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{Relative power}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/REACTOR RELATIVE POWER_comp.pdf}
+		
+	\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Steam flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/STEAM FLOW_comp.pdf}
+		
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}{Relief system flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Comparison}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{./graphs/STEAM FLOW_comp.pdf}
+		
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+\begin{frame}{Wet well temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+%\begin{figure}
+%	\centering
+%	\begin{minipage}{.5\textwidth}
+%		\centering
+%		\includegraphics[width=\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+%%		\captionof{figure}{A figure}
+%%		\label{fig:test1}
+%	\end{minipage}%
+%	\begin{minipage}{.5\textwidth}
+%		\centering
+%		\includegraphics[width=\linewidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+%%		\captionof{figure}{Another figure}
+%%		\label{fig:test2}
+%	\end{minipage}
+%\end{figure}
+\begin{frame}{Reactor pressure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/REACTOR PRESSURE_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{RPV coarse level measurement}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+
+
+
+\begin{frame}{Recirculation flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/RECIRCULATION_FLOW_comp.pdf}
+		
+	\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{MSIV position}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+\begin{frame}{Steam mixture temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+\begin{frame}{Maximum cladding temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
+		
+	\end{figure}
+\end{frame}
+%\begin{frame}{Feed water temperature 1}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+
+%\begin{frame}{Feed water temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%\begin{frame}{Feed water temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 2_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+
+
+
+
+
+
+\begin{frame}
+\Large{{Thanks for attention!}}
+\vspace{0.5cm}
+\hrule
+\vspace{3cm}
+\end{frame}
+
+\nologo
+
+
+\end{document}

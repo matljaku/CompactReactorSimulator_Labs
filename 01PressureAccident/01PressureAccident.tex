@@ -1,0 +1,250 @@
+\input{./CVUTdolphin}
+
+%Information to be included in the title page:
+\title[APROS simulations of BWR transients]{Pressure transient}
+\subtitle{First seminar SH2705}
+\author{Quentin Louis Poirier, Jakub Mátl, Atilla Cakir}
+\institute[KTH]{KTH\\
+Royal Institute of Technology, Stockholm}
+\date[24/05/23]{123. 5. 2023}
+\usepackage{comment}
+
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+%\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\DeclareFieldFormat{labelnumberwidth}{[{#1}]} %dela u bibliografie []
+\addbibresource{literature.bib}
+
+\nologo %vypne loga
+%\logo{\includegraphics[scale=0.12]{img/fjfi.eps} \includegraphics[scale=0.12]{img/cvut.eps}} %nastavi loga/zapne
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\frame{\titlepage}
+
+%\begin{frame}{Steam line break valve 1 mass flow}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE BREAK VALVE 1 MASS FLOW_comp.pdf}
+%		
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Steam line break valve 2 mass flow}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE BREAK VALVE 2 MASS FLOW_comp.pdf}
+%		
+%	\end{figure}
+%\end{frame}
+
+
+\begin{frame}{Reactor pressure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR PRESSURE _comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+%
+%
+\begin{frame}{Relative power}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR RELATIVE POWER _comp.pdf}
+		
+	\end{figure}
+\end{frame}
+
+
+%
+\begin{frame}{Recirculation flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/RECIRCULATION_FLOW _comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Relief system flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/RELIEF SYSTEM FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{Feed water flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{RPV coarse level measurement}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{Dry well temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/CONTAINMENT DRY WELL TEMPERATURE_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+\begin{frame}{Wet well temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+\begin{frame}{Auxiliary feed water flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/AUX FEED WATER FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{Feed water temperature 1}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}{Steam flow}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM FLOW_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+
+\begin{frame}{MSIV position}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}{Maximum cladding temperature}
+	\begin{figure}
+			\centering
+			\includegraphics[width=\textwidth]{./01PressureAccident/graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
+			
+		\end{figure}
+	
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}{Steam mixture temperature}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
+		
+	\end{figure}
+	
+\end{frame}
+
+
+%\begin{frame}{Feed water temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%\begin{frame}{Feed water temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 2_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+
+
+
+
+
+
+\begin{frame}
+\Large{{Thanks for attention!}}
+\vspace{0.5cm}
+\hrule
+\vspace{3cm}
+\end{frame}
+
+\nologo
+
+
+\end{document}

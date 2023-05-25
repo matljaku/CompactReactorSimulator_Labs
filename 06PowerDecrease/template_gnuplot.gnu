@@ -9,7 +9,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "<<filename1>>" u ($1):<<index>> w lp pt 7 ps 0.2 lc 6 title "<<parameter>>",\
    
 

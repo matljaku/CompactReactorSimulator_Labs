@@ -9,7 +9,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):1 w lp pt 7 ps 0.2 lc 6 title "SIMULATION TIME",\
    
 
@@ -31,7 +31,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):2 w lp pt 7 ps 0.2 lc 6 title "REACTOR RELATIVE POWER",\
    
 
@@ -53,7 +53,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):3 w lp pt 7 ps 0.2 lc 6 title "REACTOR PRESSURE",\
    
 
@@ -75,7 +75,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):4 w lp pt 7 ps 0.2 lc 6 title "RECIRCULATION_FLOW",\
    
 
@@ -97,7 +97,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):5 w lp pt 7 ps 0.2 lc 6 title "REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL",\
    
 
@@ -119,7 +119,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):6 w lp pt 7 ps 0.2 lc 6 title "REACTOR POWER TO COOLANT",\
    
 
@@ -141,7 +141,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):7 w lp pt 7 ps 0.2 lc 6 title "FEED WATER FLOW",\
    
 
@@ -163,7 +163,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):8 w lp pt 7 ps 0.2 lc 6 title "STEAM FLOW",\
    
 
@@ -185,7 +185,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):9 w lp pt 7 ps 0.2 lc 6 title "RPV FINE LEVEL MEASUREMENT",\
    
 
@@ -207,7 +207,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):10 w lp pt 7 ps 0.2 lc 6 title "RPV COARSE LEVEL MEASUREMENT",\
    
 
@@ -229,7 +229,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):11 w lp pt 7 ps 0.2 lc 6 title "RELIEF SYSTEM FLOW",\
    
 
@@ -251,7 +251,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):12 w lp pt 7 ps 0.2 lc 6 title "CORE SPRAY FLOW",\
    
 
@@ -273,7 +273,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):13 w lp pt 7 ps 0.2 lc 6 title "AUX FEED WATER FLOW",\
    
 
@@ -295,7 +295,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):14 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE BREAK VALVE 1 MASS FLOW",\
    
 
@@ -317,7 +317,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):15 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE BREAK VALVE 2 MASS FLOW",\
    
 
@@ -339,7 +339,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):16 w lp pt 7 ps 0.2 lc 6 title "FEED WATER LINE BREAK VALVE 2 MASS FLOW",\
    
 
@@ -361,7 +361,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):17 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT DRY WELL PRESSURE",\
    
 
@@ -383,7 +383,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):18 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT WET WELL PRESSURE",\
    
 
@@ -405,7 +405,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):19 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 1 ISOLATION VALVE POSITION",\
    
 
@@ -427,7 +427,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):20 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 2 ISOLATION VALVE POSITION",\
    
 
@@ -449,7 +449,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):21 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 3 ISOLATION VALVE POSITION",\
    
 
@@ -471,7 +471,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):22 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 4 ISOLATION VALVE POSITION",\
    
 
@@ -493,7 +493,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):23 w lp pt 7 ps 0.2 lc 6 title "MAXIMUM CLADDING TEMPERATURE",\
    
 
@@ -515,7 +515,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):24 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 1",\
    
 
@@ -537,7 +537,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):25 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 2",\
    
 
@@ -559,7 +559,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):26 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 3",\
    
 
@@ -581,7 +581,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):27 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 4",\
    
 
@@ -603,7 +603,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):28 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 1",\
    
 
@@ -625,7 +625,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):29 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 2",\
    
 
@@ -647,7 +647,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):30 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 3",\
    
 
@@ -669,7 +669,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):31 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 4",\
    
 
@@ -691,7 +691,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):32 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT DRY WELL TEMPERATURE",\
    
 
@@ -713,7 +713,7 @@ set grid
 set key outside top center
 set xrange [50: 150]
 #set xtics 1, 1, 120
-
+set arrow from 59.2, graph 0 to 59.2, graph 1 nohead lc rgb "red" 
 plot "EX_output.dat" u ($1):33 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT WET WELL TEMPERATURE",\
    
 

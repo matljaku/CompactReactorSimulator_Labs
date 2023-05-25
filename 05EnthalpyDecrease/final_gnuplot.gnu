@@ -7,7 +7,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):1 w lp pt 7 ps 0.2 lc 6 title "SIMULATION TIME",\
@@ -29,7 +33,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):2 w lp pt 7 ps 0.2 lc 6 title "REACTOR RELATIVE POWER",\
@@ -51,7 +59,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):3 w lp pt 7 ps 0.2 lc 6 title "REACTOR PRESSURE",\
@@ -73,7 +85,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):4 w lp pt 7 ps 0.2 lc 6 title "RECIRCULATION_FLOW",\
@@ -95,7 +111,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):5 w lp pt 7 ps 0.2 lc 6 title "REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL",\
@@ -117,7 +137,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):6 w lp pt 7 ps 0.2 lc 6 title "REACTOR POWER TO COOLANT",\
@@ -139,7 +163,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):7 w lp pt 7 ps 0.2 lc 6 title "FEED WATER FLOW",\
@@ -161,7 +189,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):8 w lp pt 7 ps 0.2 lc 6 title "STEAM FLOW",\
@@ -183,7 +215,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):9 w lp pt 7 ps 0.2 lc 6 title "RPV FINE LEVEL MEASUREMENT",\
@@ -205,7 +241,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):10 w lp pt 7 ps 0.2 lc 6 title "RPV COARSE LEVEL MEASUREMENT",\
@@ -227,7 +267,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):11 w lp pt 7 ps 0.2 lc 6 title "RELIEF SYSTEM FLOW",\
@@ -249,7 +293,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):12 w lp pt 7 ps 0.2 lc 6 title "CORE SPRAY FLOW",\
@@ -271,7 +319,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):13 w lp pt 7 ps 0.2 lc 6 title "AUX FEED WATER FLOW",\
@@ -293,7 +345,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):14 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE BREAK VALVE 1 MASS FLOW",\
@@ -315,7 +371,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):15 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE BREAK VALVE 2 MASS FLOW",\
@@ -337,7 +397,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):16 w lp pt 7 ps 0.2 lc 6 title "FEED WATER LINE BREAK VALVE 2 MASS FLOW",\
@@ -359,7 +423,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):17 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT DRY WELL PRESSURE",\
@@ -381,7 +449,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):18 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT WET WELL PRESSURE",\
@@ -403,7 +475,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):19 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 1 ISOLATION VALVE POSITION",\
@@ -425,7 +501,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):20 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 2 ISOLATION VALVE POSITION",\
@@ -447,7 +527,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):21 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 3 ISOLATION VALVE POSITION",\
@@ -469,7 +553,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):22 w lp pt 7 ps 0.2 lc 6 title "STEAM LINE 4 ISOLATION VALVE POSITION",\
@@ -491,7 +579,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):23 w lp pt 7 ps 0.2 lc 6 title "MAXIMUM CLADDING TEMPERATURE",\
@@ -513,7 +605,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):24 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 1",\
@@ -535,7 +631,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):25 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 2",\
@@ -557,7 +657,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):26 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 3",\
@@ -579,7 +683,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):27 w lp pt 7 ps 0.2 lc 6 title "FEED WATER TEMPERATURE IN LINE 4",\
@@ -601,7 +709,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):28 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 1",\
@@ -623,7 +735,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):29 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 2",\
@@ -645,7 +761,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):30 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 3",\
@@ -667,7 +787,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):31 w lp pt 7 ps 0.2 lc 6 title "MIXTURE TEMPERATURE STEAM LINE 4",\
@@ -689,7 +813,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):32 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT DRY WELL TEMPERATURE",\
@@ -711,7 +839,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "EX_output.dat" u ($1):33 w lp pt 7 ps 0.2 lc 6 title "CONTAINMENT WET WELL TEMPERATURE",\

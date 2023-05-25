@@ -7,7 +7,11 @@ set xlabel "t (s)"
 set title "" font "CMU serif, 13"
 set grid
 set key outside top center
-set xrange [110: 150]
+set xrange [100: 300]
+set arrow from 116.3, graph 0 to 116.3, graph 1 nohead lc rgb "red" 
+set arrow from 140.3, graph 0 to 140.3, graph 1 nohead lc 12 
+set xtics 100, 25, 300
+
 #set xtics 1, 1, 120
 
 plot "<<filename1>>" u ($1):<<index>> w lp pt 7 ps 0.2 lc 6 title "<<parameter>>",\
