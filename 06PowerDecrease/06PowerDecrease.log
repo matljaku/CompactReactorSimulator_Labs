@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.5)  23 MAY 2023 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.5)  27 MAY 2023 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1643,26 +1643,80 @@ Overfull \hbox (15.6657pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./graphs/REACTOR RELATIVE POWER_comp.pdf, id=61, 397.485pt x 212.795pt>
-File: ./graphs/REACTOR RELATIVE POWER_comp.pdf Graphic file (type pdf)
-<use ./graphs/REACTOR RELATIVE POWER_comp.pdf>
-Package pdftex.def Info: ./graphs/REACTOR RELATIVE POWER_comp.pdf  used on inpu
-t line 36.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+1.
 
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+1.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+41.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+41.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 41.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 41.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/yhmath/OMXyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
  []
 
 [2
 
- <./graphs/REACTOR RELATIVE POWER_comp.pdf>]
-<./graphs/RECIRCULATION_FLOW_comp.pdf, id=76, 397.485pt x 212.795pt>
+]
+<./graphs/RECIRCULATION_FLOW_comp.pdf, id=68, 284.06125pt x 255.95625pt>
 File: ./graphs/RECIRCULATION_FLOW_comp.pdf Graphic file (type pdf)
 <use ./graphs/RECIRCULATION_FLOW_comp.pdf>
 Package pdftex.def Info: ./graphs/RECIRCULATION_FLOW_comp.pdf  used on input li
-ne 44.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+ne 77.
+(pdftex.def)             Requested size: 171.21765pt x 154.28183pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 77.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 77.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 77.
+<./graphs/REACTOR RELATIVE POWER_comp.pdf, id=69, 284.06125pt x 255.95625pt>
+File: ./graphs/REACTOR RELATIVE POWER_comp.pdf Graphic file (type pdf)
+<use ./graphs/REACTOR RELATIVE POWER_comp.pdf>
+Package pdftex.def Info: ./graphs/REACTOR RELATIVE POWER_comp.pdf  used on inpu
+t line 77.
+(pdftex.def)             Requested size: 171.21765pt x 154.28183pt.
 
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
@@ -1670,13 +1724,41 @@ Overfull \hbox (15.6657pt too wide) has occurred while \output is active
 
 [3
 
- <./graphs/RECIRCULATION_FLOW_comp.pdf>]
-<./graphs/FEED WATER FLOW_comp.pdf, id=91, 397.485pt x 212.795pt>
+ <./graphs/RECIRCULATION_FLOW_comp.pdf> <./graphs/REACTOR RELATIVE POWER_comp.p
+df
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphs/REACTOR RELATIVE POWER_comp.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./graphs/STEAM FLOW_comp.pdf, id=91, 284.06125pt x 255.95625pt>
+File: ./graphs/STEAM FLOW_comp.pdf Graphic file (type pdf)
+<use ./graphs/STEAM FLOW_comp.pdf>
+Package pdftex.def Info: ./graphs/STEAM FLOW_comp.pdf  used on input line 112.
+(pdftex.def)             Requested size: 119.85182pt x 107.99298pt.
+<./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf, id=92, 284.0
+6125pt x 255.95625pt>
+File: ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf Graphic 
+file (type pdf)
+<use ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf>
+Package pdftex.def Info: ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVE
+L_comp.pdf  used on input line 112.
+(pdftex.def)             Requested size: 119.85182pt x 107.99298pt.
+<./graphs/REACTOR PRESSURE_comp.pdf, id=93, 284.06125pt x 255.95625pt>
+File: ./graphs/REACTOR PRESSURE_comp.pdf Graphic file (type pdf)
+<use ./graphs/REACTOR PRESSURE_comp.pdf>
+Package pdftex.def Info: ./graphs/REACTOR PRESSURE_comp.pdf  used on input line
+ 112.
+(pdftex.def)             Requested size: 119.85182pt x 107.99298pt.
+<./graphs/FEED WATER FLOW_comp.pdf, id=94, 284.06125pt x 255.95625pt>
 File: ./graphs/FEED WATER FLOW_comp.pdf Graphic file (type pdf)
 <use ./graphs/FEED WATER FLOW_comp.pdf>
 Package pdftex.def Info: ./graphs/FEED WATER FLOW_comp.pdf  used on input line 
-52.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+112.
+(pdftex.def)             Requested size: 119.85182pt x 107.99298pt.
+
+Overfull \vbox (7.32175pt too high) detected at line 112
+ []
+
 
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
@@ -1684,13 +1766,33 @@ Overfull \hbox (15.6657pt too wide) has occurred while \output is active
 
 [4
 
- <./graphs/FEED WATER FLOW_comp.pdf>]
-<./graphs/REACTOR PRESSURE_comp.pdf, id=106, 397.485pt x 212.795pt>
-File: ./graphs/REACTOR PRESSURE_comp.pdf Graphic file (type pdf)
-<use ./graphs/REACTOR PRESSURE_comp.pdf>
-Package pdftex.def Info: ./graphs/REACTOR PRESSURE_comp.pdf  used on input line
- 61.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+ <./graphs/STEAM FLOW_comp.pdf> <./graphs/REACTOR PRESSURE VESSEL COARSE COLLAP
+SED LEVEL_comp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphs/REACTOR PRESSURE VESSEL COARSE
+ COLLAPSED LEVEL_comp.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+> <./graphs/REACTOR PRESSURE_comp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphs/REACTOR PRESSURE_comp.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./graphs/FEED WATER FLOW_comp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphs/FEED WATER FLOW_comp.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+<./graphs/AUX FEED WATER FLOW_comp.pdf, id=130, 284.06125pt x 255.95625pt>
+File: ./graphs/AUX FEED WATER FLOW_comp.pdf Graphic file (type pdf)
+<use ./graphs/AUX FEED WATER FLOW_comp.pdf>
+Package pdftex.def Info: ./graphs/AUX FEED WATER FLOW_comp.pdf  used on input l
+ine 131.
+(pdftex.def)             Requested size: 136.97464pt x 123.42781pt.
+<./graphs/RELIEF SYSTEM FLOW_comp.pdf, id=131, 284.06125pt x 255.95625pt>
+File: ./graphs/RELIEF SYSTEM FLOW_comp.pdf Graphic file (type pdf)
+<use ./graphs/RELIEF SYSTEM FLOW_comp.pdf>
+Package pdftex.def Info: ./graphs/RELIEF SYSTEM FLOW_comp.pdf  used on input li
+ne 131.
+(pdftex.def)             Requested size: 136.97464pt x 123.42781pt.
 
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
@@ -1698,15 +1800,23 @@ Overfull \hbox (15.6657pt too wide) has occurred while \output is active
 
 [5
 
- <./graphs/REACTOR PRESSURE_comp.pdf>]
-<./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf, id=121, 397.
-485pt x 212.795pt>
-File: ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf Graphic 
-file (type pdf)
-<use ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf>
-Package pdftex.def Info: ./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVE
-L_comp.pdf  used on input line 69.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+ <./graphs/AUX FEED WATER FLOW_comp.pdf> <./graphs/RELIEF SYSTEM FLOW_comp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphs/RELIEF SYSTEM FLOW_comp.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+File: ./graphs/STEAM FLOW_comp.pdf Graphic file (type pdf)
+<use ./graphs/STEAM FLOW_comp.pdf>
+Package pdftex.def Info: ./graphs/STEAM FLOW_comp.pdf  used on input line 171.
+(pdftex.def)             Requested size: 136.97464pt x 123.42781pt.
+<./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf, id=153, 284.06125pt x 255.
+95625pt>
+File: ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf Graphic file (type pdf
+)
+<use ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf>
+Package pdftex.def Info: ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf  us
+ed on input line 171.
+(pdftex.def)             Requested size: 136.97464pt x 123.42781pt.
 
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
@@ -1714,86 +1824,25 @@ Overfull \hbox (15.6657pt too wide) has occurred while \output is active
 
 [6
 
- <./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf>]
-<./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf, id=136, 397.485pt x 212.79
-5pt>
-File: ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf Graphic file (type pdf
-)
-<use ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf>
-Package pdftex.def Info: ./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf  us
-ed on input line 78.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
+ <./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+207.
 
+(/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
  []
 
 [7
 
- <./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf>]
-<./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf, id=159, 397.485pt x 212.795pt>
-
-File: ./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf Graphic file (type pdf)
-<use ./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf>
-Package pdftex.def Info: ./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf  used o
-n input line 86.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
-
+]
 Overfull \hbox (15.6657pt too wide) has occurred while \output is active
  [][] 
  []
 
 [8
-
- <./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf>]
-<./graphs/STEAM FLOW_comp.pdf, id=182, 397.485pt x 212.795pt>
-File: ./graphs/STEAM FLOW_comp.pdf Graphic file (type pdf)
-<use ./graphs/STEAM FLOW_comp.pdf>
-Package pdftex.def Info: ./graphs/STEAM FLOW_comp.pdf  used on input line 122.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
-
-Overfull \hbox (15.6657pt too wide) has occurred while \output is active
- [][] 
- []
-
-[9
-
- <./graphs/STEAM FLOW_comp.pdf>]
-<./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf, id=197, 397.485pt x 2
-12.795pt>
-File: ./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf Graphic file (typ
-e pdf)
-<use ./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf>
-Package pdftex.def Info: ./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pd
-f  used on input line 131.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
-
-Overfull \hbox (15.6657pt too wide) has occurred while \output is active
- [][] 
- []
-
-[10
-
- <./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf>]
-<./graphs/AUX FEED WATER FLOW_comp.pdf, id=212, 397.485pt x 212.795pt>
-File: ./graphs/AUX FEED WATER FLOW_comp.pdf Graphic file (type pdf)
-<use ./graphs/AUX FEED WATER FLOW_comp.pdf>
-Package pdftex.def Info: ./graphs/AUX FEED WATER FLOW_comp.pdf  used on input l
-ine 140.
-(pdftex.def)             Requested size: 342.43532pt x 183.32806pt.
-
-Overfull \hbox (15.6657pt too wide) has occurred while \output is active
- [][] 
- []
-
-[11
-
- <./graphs/AUX FEED WATER FLOW_comp.pdf>]
-Overfull \hbox (15.6657pt too wide) has occurred while \output is active
- [][] 
- []
-
-[12
 
 ]
 \tf@nav=\write8
@@ -1813,20 +1862,22 @@ Package logreq Info: Writing requests to '06PowerDecrease.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48588 strings out of 479342
- 1147944 string characters out of 5869179
- 1863035 words of memory out of 5000000
- 65761 multiletter control sequences out of 15000+600000
- 484504 words of font info for 36 fonts, out of 8000000 for 9000
+ 48799 strings out of 479342
+ 1152360 string characters out of 5869179
+ 1864092 words of memory out of 5000000
+ 65932 multiletter control sequences out of 15000+600000
+ 514313 words of font info for 75 fonts, out of 8000000 for 9000
  473 hyphenation exceptions out of 8191
  104i,15n,107p,1140b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss8.pfb>
-Output written on 06PowerDecrease.pdf (12 pages, 299311 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/shar
+e/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmsy10.pfb>
+Output written on 06PowerDecrease.pdf (8 pages, 252131 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 

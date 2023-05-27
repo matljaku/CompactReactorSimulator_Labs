@@ -1,12 +1,12 @@
 \input{./CVUTdolphin}
 
 %Information to be included in the title page:
-\title[APROS simulations of BWR transients]{Power Decrease}
-\subtitle{First seminar SH2705}
+\title[APROS simulations of BWR transients]{Power decrease}
+\subtitle{Final presentation SH2705}
 \author{Quentin Louis Poirier, Jakub Mátl, Atilla Cakir}
 \institute[KTH]{KTH\\
-Royal Institute of Technology, Stockholm}
-\date[24/05/23]{123. 5. 2023}
+	Royal Institute of Technology, Stockholm}
+\date[24/05/23]{29. 5. 2023}
 \usepackage{comment}
 
 \usepackage[style=authoryear-ibid,backend=biber]{biblatex}
@@ -23,130 +23,208 @@ Royal Institute of Technology, Stockholm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
-\frame{\titlepage}
-
-
-\begin{frame}{Relative power}
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{./graphs/REACTOR RELATIVE POWER_comp.pdf}
 	
-\end{figure}
-\end{frame}
-\begin{frame}{Recirculation flow}
+	\frame{\titlepage}
+	
+	
+	\begin{frame}{Event description}
+			\begin{itemize}
+				\small
+				\item Start of the transient:
+				\item Setpoint value to 0.9 - input for power control
+				\item Rotation speed of recirculation pumps lowered (automation)
+				\item Pressure drop, gets back
+				\item Water level - new asymptotic value
+				
+				
+			\end{itemize}
+	\end{frame}
+
+
+
+\begin{frame}{How the power is decreased?}
 	\begin{figure}
 		\centering
-		\includegraphics[width=\textwidth]{./graphs/RECIRCULATION_FLOW_comp.pdf}
-		
-	\end{figure}
-
-\end{frame}
-\begin{frame}{Feed water flow}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/FEED WATER FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{Reactor pressure}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/REACTOR PRESSURE_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-\begin{frame}{RPV coarse level measurement}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{Steam mixture temperature}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-\begin{frame}{Maximum cladding temperature}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-%\begin{frame}{Feed water temperature 1}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
-%		
-%	\end{figure}
-%	
-%\end{frame}
-
-%\begin{frame}{Feed water temperature}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
-%		
-%	\end{figure}
-%	
-%\end{frame}
-%\begin{frame}{Feed water temperature}
-%	\begin{figure}
-%		\centering
-%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 2_comp.pdf}
-%		
-%	\end{figure}
-%	
-%\end{frame}
-%
-
-
-\begin{frame}{Steam flow}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/STEAM FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{MSIV position}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{Auxiliary feed water flow}
-	\begin{figure}
+		\begin{minipage}{.5\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
-			
-		\end{figure}
+			\includegraphics[width=\linewidth]{./graphs/RECIRCULATION_FLOW_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./graphs/REACTOR RELATIVE POWER_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+%	\vspace{-10pt}
+%	\begin{figure}
+%		\centering
+%		\begin{minipage}{.5\textwidth}
+%			\centering
+%			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE_comp.pdf}
+%			%			\captionof{figure}{A figure}
+%			%			\label{fig:test1}
+%		\end{minipage}%
+%		\begin{minipage}{.5\textwidth}
+%			\centering
+%			\includegraphics[width=.7\linewidth]{./graphs/REACTOR RELATIVE POWER_comp.pdf}
+%			%			\captionof{figure}{Another figure}
+%			%			\label{fig:test2}
+%		\end{minipage}
+%	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Oscillations}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+		\vspace{-10pt}
+		\begin{figure}
+				\centering
+				\begin{minipage}{.5\textwidth}
+						\centering
+						\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE_comp.pdf}
+						%			\captionof{figure}{A figure}
+						%			\label{fig:test1}
+					\end{minipage}%
+				\begin{minipage}{.5\textwidth}
+						\centering
+						\includegraphics[width=.7\linewidth]{./graphs/FEED WATER FLOW_comp.pdf}
+						%			\captionof{figure}{Another figure}
+						%			\label{fig:test2}
+					\end{minipage}
+			\end{figure}
+\end{frame}
+	\begin{frame}{Interesting graphs}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.8\linewidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.8\linewidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	
 	
 \end{frame}
 
-\begin{frame}
-\Large{{Thanks for attention!}}
-\vspace{0.5cm}
-\hrule
-\vspace{3cm}
-\end{frame}
 
-\nologo
+	\begin{frame}{Steam generation}
+		\begin{figure}
+			\centering
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.8\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+				%			\captionof{figure}{A figure}
+				%			\label{fig:test1}
+			\end{minipage}%
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\includegraphics[width=0.8\linewidth]{./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
+				%			\captionof{figure}{Another figure}
+				%			\label{fig:test2}
+			\end{minipage}
+		\end{figure}
+		
+		%	\vspace{-10pt}
+		%	\begin{figure}
+			%		\centering
+			%		\begin{minipage}{.5\textwidth}
+				%			\centering
+				%			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp_comp.pdf}
+				%			%			\captionof{figure}{A figure}
+				%			%			\label{fig:test1}
+				%		\end{minipage}%
+			%		\begin{minipage}{.5\textwidth}
+				%			\centering
+				%			\includegraphics[width=.7\linewidth]{./graphs/REACTOR RELATIVE POWER _comp_comp.pdf}
+				%			%			\captionof{figure}{Another figure}
+				%			%			\label{fig:test2}
+				%		\end{minipage}
+			%	\end{figure}
+			\vspace{-10pt}
+		\begin{itemize}
+			\item Lower power -> lower steam flow -> Steam more dryier
+		\end{itemize}
+	\end{frame}
+	
+	
+	
+
+	
+	
+	
+	
+	\begin{frame}{What is (not) activated}
+		\begin{columns}
+		\column{0.6\textwidth}
+%		\centering
+%		\includegraphics[width=0.7\linewidth, trim={3cm 8cm 10cm 9cm}, clip]{./graphs/BWR.pdf}
+		
+		\begin{itemize}
+			\small
+		\item AOO 
+		\item Standart procedure
+		\item Adjusted power via recirculation flow
+		\item Ajusted feed water flow 
+	
+		\begin{itemize}
+			\item Lower heat needed for removal
+			\item Reactivity coefficients - Cannot go up, but also cannot go down 
+			\item Feed water flow modulated using control logic
+		\end{itemize}
+		\end{itemize}
+		\column{0.4\textwidth}
+		\begin{itemize}
+			\item HPI (Auxilliary system) - Not activated
+			\item Relief system - Not activated
+			\item Core spray system (LPI) - Not activated
+		\end{itemize}
+	\end{columns}
+
+	\end{frame}
+	
+	
+	
+	
 
 
+	
+
+	
+
+	
+	
+	\begin{frame}
+		\Large{{Thanks for attention!}}
+		\vspace{0.5cm}
+		\hrule
+		\vspace{3cm}
+	\end{frame}
+	
+	\nologo
+	
+	
 \end{document}

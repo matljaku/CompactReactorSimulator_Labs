@@ -1,0 +1,74 @@
+data_file = "EX_outputlinebreak.dat"
+data_file_2 = "EX_outputLoE.dat"
+data_file_3 = "EX_outputNoSCRAM.dat"
+data_file_4 = "EX_outputFWBV2.dat"
+data_file_5 = "EX_outputV2V4.dat"
+parameters = [], pom = 0
+
+File.foreach(data_file) do |l|
+    pom += 1
+    if pom == 1
+        next
+    end
+
+    unless l.include?("0000") 
+        parameters << l.gsub("\r\n", "").slice(1..-1)
+
+    end
+end 
+
+parameters = parameters.drop(2)
+
+File.open("final_gnuplot.gnu", "w") do |w|
+    parameters.each do |par|
+    #puts par.inspect
+    par_wu = ""
+    if par.include?("PRESSURE")  
+        if par.include?("LEVEL")
+            par_wu.concat("#{par} (m)")
+        else
+            par_wu.concat("#{par} (Pa)")
+        end
+    elsif par.include?("POWER")
+       if par.include?("RELATIVE")
+            par_wu.concat("#{par} (-)")
+       else
+            par_wu.concat("#{par} (MW)")
+       end
+    elsif par.include?("FLOW")
+        par_wu.concat("#{par} (kg/s)")
+    elsif par.include?("TEMPERATURE")        
+        par_wu.concat("#{par} (K)")
+    elsif par.include?("TIME")
+    
+        par_wu.concat("#{par} (s)")
+    elsif par.include?("LEVEL")
+        par_wu.concat("#{par} (m)")
+    else
+        par_wu.concat("#{par} (-)")
+    end
+    puts par_wu
+    index = parameters.find_index(par) + 1
+        File.foreach("template_gnuplot.gnu") do |line|
+            mod_line = line.gsub("<<parameter>>", par).gsub("<<parameter_with_unit>>", par_wu).gsub("<<filename>>", data_file).gsub("<<index>>", index.to_s)
+            mod_line = mod_line.gsub("<<filename2>>", data_file_2) # Additionaly add analogicialy another data files
+            mod_line = mod_line.gsub("<<filename3>>", data_file_3) # Additionaly add analogicialy another data files
+            mod_line = mod_line.gsub("<<filename4>>", data_file_4) # Additionaly add analogicialy another data files
+            mod_line = mod_line.gsub("<<filename5>>", data_file_5) # Additionaly add analogicialy another data files
+            w.puts mod_line
+        
+        end
+    end
+end
+
+
+
+
+
+
+#puts parameters
+#parameters.each do |p|
+#    puts p
+#    puts parameters.find_index(p)
+
+#end

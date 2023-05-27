@@ -24,7 +24,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
             if par.include?("LEVEL")
                 par_wu.concat("#{par} (m)")
             else
-                par_wu.concat("#{par} (MPa)")
+                par_wu.concat("#{par} (Pa)")
             end
         elsif par.include?("POWER")
            if par.include?("RELATIVE")

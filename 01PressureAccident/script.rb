@@ -26,7 +26,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
             if par.include?("LEVEL")
                 par_wu.concat("#{par} (m)")
             else
-                par_wu.concat("#{par} (MPa)")
+                par_wu.concat("#{par} (Pa)")
             end
         elsif par.include?("POWER")
            if par.include?("RELATIVE")
@@ -37,7 +37,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
         elsif par.include?("FLOW")
             par_wu.concat("#{par} (kg/s)")
         elsif par.include?("TEMPERATURE")        
-            par_wu.concat("#{par} (K)")
+            par_wu.concat("#{par} (˚C)")
         elsif par.include?("TIME")
         
             par_wu.concat("#{par} (s)")

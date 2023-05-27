@@ -1,4 +1,4 @@
-set term pdf font "CMU serif, 8" size 14cm, 7.5cm
+set term pdf font "CMU serif, 10" size 10cm, 9cm
 set output "./graphs/<<parameter>>_comp.pdf"
 set ylabel "<<parameter_with_unit>>"
 set xlabel "t (s)"

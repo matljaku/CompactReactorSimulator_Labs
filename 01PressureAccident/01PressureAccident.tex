@@ -26,10 +26,223 @@ Royal Institute of Technology, Stockholm}
 
 \frame{\titlepage}
 
+
+\begin{frame}{Event description}
+	\begin{columns}
+		\column{0.6\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./graphs/BWR.jpg}
+		\column{0.4\textwidth}
+		\begin{itemize}
+			\small
+			\item Start of the transient: closure of the MSIV
+			\item Reactor will automatically SCRAM if MSIV closed
+			\item Conditions:
+			\begin{itemize}
+				\item 100 ms SCRAM delay
+				\item 300 ms SCRAM delay
+				\item 500 ms SCRAM delay
+				\item no SCRAM (control logic removed from the simulation)
+			\end{itemize}
+			In the last case: reactor WILL SCRAM, but not from MSIV closure signal
+		\end{itemize}
+	\end{columns}
+	\end{frame}
+\begin{frame}{Start of the transient}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
+%			\captionof{figure}{A figure}
+%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+%			\captionof{figure}{Another figure}
+%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	\vspace{-10pt}
+	\begin{figure}
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp.pdf}
+		%			\captionof{figure}{A figure}
+		%			\label{fig:test1}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{./graphs/REACTOR RELATIVE POWER _comp.pdf}
+		%			\captionof{figure}{Another figure}
+		%			\label{fig:test2}
+	\end{minipage}
+\end{figure}
+\end{frame}
+
+%\begin{frame}{Pressure relief}
+%
+%	\begin{figure}
+%		\centering
+%		\begin{minipage}{.5\textwidth}
+%			\centering
+%			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp.pdf}
+%			%			\captionof{figure}{A figure}
+%			%			\label{fig:test1}
+%		\end{minipage}%
+%		\begin{minipage}{.5\textwidth}
+%			\centering
+%			\includegraphics[width=.7\linewidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+%			%			\captionof{figure}{Another figure}
+%			%			\label{fig:test2}
+%		\end{minipage}
+%	\end{figure}
+%	\vspace{-10pt}
+%	\begin{figure}
+%	\centering
+%	\begin{minipage}{.5\textwidth}
+%		\centering
+%		\includegraphics[width=0.7\linewidth]{./graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
+%		%			\captionof{figure}{A figure}
+%		%			\label{fig:test1}
+%	\end{minipage}%
+%	\vspace{-10pt}
+%	\begin{minipage}{.5\textwidth}
+%		
+%		\begin{itemize}
+%			\item \small{Closure of relief valves by groups}
+%			\item Different rellief procedure for no SCRAM - caused by much higher power rise (nearly 2 times than for 50 ms SCRAM delay)
+%		\end{itemize}
+%			
+%		
+%%		\centering
+%%		\includegraphics[width=.8\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+%		%			\captionof{figure}{Another figure}
+%		%			\label{fig:test2}
+%	\end{minipage}
+%\end{figure}
+%\end{frame}
+
+
+\begin{frame}{Pressure relief}
+	
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/RELIEF SYSTEM FLOW_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	\vspace{-10pt}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\begin{itemize}
+				\small{
+				\item Closure of relief valves by groups
+				\item Different rellief procedure for no SCRAM - caused by much higher power rise (nearly 2 times than for 50 ms SCRAM delay)}
+			\end{itemize}
+			%		\centering
+			%		\includegraphics[width=.8\linewidth]{./graphs/STEAM FLOW_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{What happens in the reactor?}
+	
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	\vspace{-10pt}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/RECIRCULATION_FLOW _comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			
+			
+					\centering
+					\includegraphics[width=.7\linewidth]{./graphs/FEED WATER FLOW_comp.pdf}
+%						\captionof{figure}{Another figure}
+%						\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{What causes the oscillations in the feed water flow?}
+	
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/FEED WATER FLOW_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	\vspace{-10pt}
+	\begin{figure}
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/RECIRCULATION_FLOW _comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			
+			
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
+			%						\captionof{figure}{Another figure}
+			%						\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+\end{frame}
 %\begin{frame}{Steam line break valve 1 mass flow}
 %	\begin{figure}
 %		\centering
-%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE BREAK VALVE 1 MASS FLOW_comp.pdf}
+%		\includegraphics[width=\textwidth]{./graphs/STEAM LINE BREAK VALVE 1 MASS FLOW_comp.pdf}
 %		
 %	\end{figure}
 %\end{frame}
@@ -37,188 +250,203 @@ Royal Institute of Technology, Stockholm}
 %\begin{frame}{Steam line break valve 2 mass flow}
 %	\begin{figure}
 %		\centering
-%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE BREAK VALVE 2 MASS FLOW_comp.pdf}
+%		\includegraphics[width=\textwidth]{./graphs/STEAM LINE BREAK VALVE 2 MASS FLOW_comp.pdf}
 %		
 %	\end{figure}
 %\end{frame}
 
 
-\begin{frame}{Reactor pressure}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR PRESSURE _comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-%
-%
-%
-\begin{frame}{Relative power}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR RELATIVE POWER _comp.pdf}
-		
-	\end{figure}
-\end{frame}
+
 
 
 %
-\begin{frame}{Recirculation flow}
+\begin{frame}{The natural convection instability?}
 	\begin{figure}
+	\centering
+	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/RECIRCULATION_FLOW _comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{Relief system flow}
-	\begin{figure}
+		\includegraphics[width=0.7\linewidth]{./graphs/FEED WATER FLOW_comp.pdf}
+		%			\captionof{figure}{A figure}
+		%			\label{fig:test1}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/RELIEF SYSTEM FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-\begin{frame}{Feed water flow}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-\begin{frame}{RPV coarse level measurement}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-\begin{frame}{Dry well temperature}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/CONTAINMENT DRY WELL TEMPERATURE_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-\begin{frame}{Wet well temperature}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-
-\begin{frame}{Auxiliary feed water flow}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/AUX FEED WATER FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-\begin{frame}{Feed water temperature 1}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
-		
-	\end{figure}
+		\includegraphics[width=.7\linewidth]{./graphs/RECIRCULATION_FLOW _comp.pdf}
+		%			\captionof{figure}{Another figure}
+		%			\label{fig:test2}
+	\end{minipage}
+\end{figure}
+\vspace{-10pt}
+%\begin{figure}
+%	\centering
+%	\begin{minipage}{.5\textwidth}
+%		\centering
+%		\includegraphics[width=0.7\linewidth]{./graphs/RECIRCULATION_FLOW _comp.pdf}
+%		%			\captionof{figure}{A figure}
+%		%			\label{fig:test1}
+%	\end{minipage}%
+%	\begin{minipage}{.5\textwidth}
+%		
+%		
+%		\centering
+%		\includegraphics[width=.7\linewidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
+%		%						\captionof{figure}{Another figure}
+%		%						\label{fig:test2}
+%	\end{minipage}
+%\end{figure}
 	
 \end{frame}
 
 
 
 
-
-
-
-
-\begin{frame}{Steam flow}
-	\begin{figure}
+\begin{frame}{Temperatures}
+		\begin{figure}
 		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM FLOW_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-
-
-\begin{frame}{MSIV position}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
-		
-	\end{figure}
-	
-\end{frame}
-
-
-
-
-
-
-
-
-\begin{frame}{Maximum cladding temperature}
-	\begin{figure}
+		\begin{minipage}{.5\textwidth}
 			\centering
-			\includegraphics[width=\textwidth]{./01PressureAccident/graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
-			
-		\end{figure}
-	
-\end{frame}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{frame}{Steam mixture temperature}
+			\includegraphics[width=0.7\linewidth]{./graphs/REACTOR PRESSURE _comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+			%			\captionof{figure}{Another figure}
+			%			\label{fig:test2}
+		\end{minipage}
+	\end{figure}
+	\vspace{-10pt}
 	\begin{figure}
 		\centering
-		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
-		
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
+			%			\captionof{figure}{A figure}
+			%			\label{fig:test1}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			
+			
+			\centering
+			\includegraphics[width=.7\linewidth]{./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
+			%						\captionof{figure}{Another figure}
+			%						\label{fig:test2}
+		\end{minipage}
 	\end{figure}
-	
 \end{frame}
+
+%\begin{frame}{RPV coarse level measurement}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/REACTOR PRESSURE VESSEL COARSE COLLAPSED LEVEL_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%\begin{frame}{Dry well temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/CONTAINMENT DRY WELL TEMPERATURE_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%\begin{frame}{Wet well temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/CONTAINMENT WET WELL TEMPERATURE_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%
+%\begin{frame}{Auxiliary feed water flow}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/AUX FEED WATER FLOW_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%\begin{frame}{Feed water temperature 1}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%
+%
+%
+%
+%
+%
+%\begin{frame}{Steam flow}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/STEAM FLOW_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%
+%
+%\begin{frame}{MSIV position}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/STEAM LINE 1 ISOLATION VALVE POSITION_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
+%
+%
+%
+%
+%
+%
+%
+%
+%\begin{frame}{Maximum cladding temperature}
+%	\begin{figure}
+%			\centering
+%			\includegraphics[width=\textwidth]{./graphs/MAXIMUM CLADDING TEMPERATURE_comp.pdf}
+%			
+%		\end{figure}
+%	
+%\end{frame}
+
+
+
+
+
+
+%\begin{frame}{Steam mixture temperature}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=\textwidth]{./graphs/MIXTURE TEMPERATURE STEAM LINE 1_comp.pdf}
+%		
+%	\end{figure}
+%	
+%\end{frame}
 
 
 %\begin{frame}{Feed water temperature}
 %	\begin{figure}
 %		\centering
-%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 1_comp.pdf}
 %		
 %	\end{figure}
 %	
@@ -226,7 +454,7 @@ Royal Institute of Technology, Stockholm}
 %\begin{frame}{Feed water temperature}
 %	\begin{figure}
 %		\centering
-%		\includegraphics[width=\textwidth]{./01PressureAccident/graphs/FEED WATER TEMPERATURE IN LINE 2_comp.pdf}
+%		\includegraphics[width=\textwidth]{./graphs/FEED WATER TEMPERATURE IN LINE 2_comp.pdf}
 %		
 %	\end{figure}
 %	

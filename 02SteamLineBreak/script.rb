@@ -1,4 +1,5 @@
 data_file = "EX_outputlinebreak.dat"
+data_file_2 = "EX_outputAux.dat"
 parameters = [], pom = 0
 
 File.foreach(data_file) do |l|
@@ -23,7 +24,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
         if par.include?("LEVEL")
             par_wu.concat("#{par} (m)")
         else
-            par_wu.concat("#{par} (MPa)")
+            par_wu.concat("#{par} (Pa)")
         end
     elsif par.include?("POWER")
        if par.include?("RELATIVE")
@@ -34,7 +35,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
     elsif par.include?("FLOW")
         par_wu.concat("#{par} (kg/s)")
     elsif par.include?("TEMPERATURE")        
-        par_wu.concat("#{par} (K)")
+        par_wu.concat("#{par} (˚C)")
     elsif par.include?("TIME")
     
         par_wu.concat("#{par} (s)")
@@ -47,6 +48,7 @@ File.open("final_gnuplot.gnu", "w") do |w|
     index = parameters.find_index(par) + 1
         File.foreach("template_gnuplot.gnu") do |line|
             mod_line = line.gsub("<<parameter>>", par).gsub("<<parameter_with_unit>>", par_wu).gsub("<<filename>>", data_file).gsub("<<index>>", index.to_s)
+            mod_line = mod_line.gsub("<<filename2>>", data_file_2) # Additionaly add analogicialy another data files
             w.puts mod_line
         
         end
